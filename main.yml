@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  roles:
+    - computer_setup
+    - ansible-role-homebrew
+    - ansible-role-pip

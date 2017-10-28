@@ -1,0 +1,10 @@
+---
+#
+
+
+- name: install dotfiles
+  git:
+    repo: "https://github.com/davidfic/dotfiles.git"
+    dest: /Users/dficociello/tmp
+
+

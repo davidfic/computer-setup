@@ -1,0 +1,8 @@
+---
+# tasks file for computer_setup
+
+- import_tasks: "mac.yml"
+  when: ansible_distribution == 'MacOSX'
+
+  #- import_tasks: "linux.yml"
+  #when: ansible_distribution == 'Ubuntu' or ansible_distribution == 'Debian'
