@@ -8,3 +8,10 @@
     dest: /Users/dficociello/tmp
 
 
+- name: pip install needed packages
+  pip: 
+    name: "{{ name }}"
+  with_items:
+    - virtualenv
+    - virtualenvwrapper
+    - requests
